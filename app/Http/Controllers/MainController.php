@@ -39,7 +39,7 @@ class MainController extends Controller
                 'raw_header' => $raw_request[0],
                 'raw_body' => array_key_exists(1, $raw_request) ? $raw_request[1] : null,
             ],
-            'info' => 'This is webservice for test http connection. See documents at example.com.',
+            'info' => 'This is webservice for test http connection. See documents at docs.connectiontest.dev.',
             'server' => [
                 'ip' => $request->server('SERVER_ADDR'),
                 'processing_time' => microtime(true) - LARAVEL_START,
