@@ -1,4 +1,4 @@
-# Connection-test
+# Connectiontest.dev
 
 This is web service for testing http access.
 
