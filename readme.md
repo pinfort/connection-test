@@ -6,4 +6,4 @@ This server will response your requesting data.
 You can access to any path, any http verb under the domain.
 
 ## How to Use
-    curl https://example.com/testingpath
+    curl https://connectiontest.dev/testingpath
